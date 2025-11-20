@@ -1,0 +1,70 @@
+/* Set up page background and text */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+  color: #333;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Page title */
+h1 {
+  color: darkgreen;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Section titles */
+h2 {
+  color: #004d40;
+  margin-top: 30px;
+}
+
+/* Paragraph text */
+p {
+  max-width: 900px;
+  margin: 20px auto;
+  line-height: 1.6;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+img {
+  width: 80%;
+  max-width: 500px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 2px solid #004d40;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Keep first image centered on all screens */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style for list section */
+ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
